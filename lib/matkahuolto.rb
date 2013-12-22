@@ -1,5 +1,4 @@
 require "matkahuolto/version"
-require 'open-uri'
 
 class Matkahuolto
 	include HTTParty
