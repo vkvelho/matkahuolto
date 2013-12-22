@@ -1,4 +1,8 @@
 require "matkahuolto/version"
+require 'httparty'
+require 'nokogiri'
+require 'crack'
+require 'cgi'
 
 class Matkahuolto
 	include HTTParty
