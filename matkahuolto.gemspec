@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ilkka Sopanen"]
   spec.email         = ["ilkka.sopanen@gmail.com"]
   spec.summary       = %q{Get the nearest delivery points from Matkahuolto.}
-  spec.description   = %q{Just give him a valid Finnish address and he'll give you the nearest delivery points as an array of hashes.}
+  spec.description   = %q{Initialize using valid Finnish postcode and optional street address and you'll have the nearest delivery points in a neat array of hashes.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
