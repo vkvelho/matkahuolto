@@ -2,14 +2,14 @@ require 'spec_helper.rb'
 
 describe Matkahuolto do
 	context "using valid and precise street address" do  
-		subject { described_class.new("04400", "Ainolankatu") }
+		subject { described_class.new("04400", "Ainolankatu 3") }
 
 		it "sets the postcode as expected" do
 			subject.postcode.should == "04400"
 		end
 
 		it "sets the street address as expected" do
-			subject.street_address.should == "Ainolankatu"
+			subject.street_address.should == "Ainolankatu 3"
 		end
 
 		it "should build valid xml document" do
@@ -40,7 +40,7 @@ describe Matkahuolto do
 
 		it "raises an error with invalid postcode" do
 			expect {
-				described_class.new("asdfg", "Ainolankatu")
+				described_class.new("asdfg", "Ainolankatu 3")
 			}.to raise_error(
 				Matkahuolto::InvalidAddress, /postcode/
 			)

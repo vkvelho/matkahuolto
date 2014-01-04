@@ -10,7 +10,7 @@ http_interactions:
         <MHSearchOfficesRequest>
           <Login>1234567</Login>
           <Version>1.0</Version>
-          <StreetAddress>Ainolankatu</StreetAddress>
+          <StreetAddress>Ainolankatu 3</StreetAddress>
           <PostalCode>04400</PostalCode>
         </MHSearchOfficesRequest>
     headers:
@@ -24,13 +24,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 22 Dec 2013 01:37:11 GMT
+      - Sat, 04 Jan 2014 22:17:22 GMT
       Server:
       - Apache/2.2.3 (CentOS)
       X-Powered-By:
       - 'Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5'
       Set-Cookie:
-      - JSESSIONID=9E3BE519E9A2F6CCD7CE59BD3C351956; Path=/
+      - JSESSIONID=40DE36885F4B14EA5088634EAA0E136C; Path=/
       Connection:
       - close
       Transfer-Encoding:
@@ -41,5 +41,5 @@ http_interactions:
       encoding: UTF-8
       string: '%3C%3Fxml+version%3D%271.0%27+encoding%3D%27ISO-8859-1%27%3F%3E%0A%3CMHSearchOfficesReply%3E%0A%3COffice%3E%0A%3CSeqNumber%3E1%3C%2FSeqNumber%3E%0A%3CId%3E5385%3C%2FId%3E%0A%3CType%3ETRS%3C%2FType%3E%0A%3CName%3ESIWA+PUISTOTIE%3C%2FName%3E%0A%3CStreetAddress%3EPUISTOTIE+33%3C%2FStreetAddress%3E%0A%3CPostalCode%3E04420%3C%2FPostalCode%3E%0A%3CCity%3EJ%C4RVENP%C4%C4%3C%2FCity%3E%0A%3CCountry%3EFI%3C%2FCountry%3E%0A%3CMhOffice%3EJ%C4RVENP%C4%C4%3C%2FMhOffice%3E%0A%3CShopId%3E03172000%3C%2FShopId%3E%0A%3CDistance%3E1%2C8%3C%2FDistance%3E%0A%3C%2FOffice%3E%0A%3COffice%3E%0A%3CSeqNumber%3E2%3C%2FSeqNumber%3E%0A%3CId%3E17%3C%2FId%3E%0A%3CType%3EMHA%3C%2FType%3E%0A%3CName%3EMATKAHUOLTO+OY%3C%2FName%3E%0A%3CStreetAddress%3EALANKOTIE+1%3C%2FStreetAddress%3E%0A%3CPostalCode%3E04400%3C%2FPostalCode%3E%0A%3CCity%3EJ%C4RVENP%C4%C4%3C%2FCity%3E%0A%3CCountry%3EFI%3C%2FCountry%3E%0A%3CMhOffice%3E%3C%2FMhOffice%3E%0A%3CShopId%3E%3C%2FShopId%3E%0A%3CDistance%3E2%2C6%3C%2FDistance%3E%0A%3C%2FOffice%3E%0A%3COffice%3E%0A%3CSeqNumber%3E3%3C%2FSeqNumber%3E%0A%3CId%3E5117%3C%2FId%3E%0A%3CType%3ETRS%3C%2FType%3E%0A%3CName%3ESIWA+J%C4RVENP%C4%C4%3C%2FName%3E%0A%3CStreetAddress%3EKARTANONTIE+9%3C%2FStreetAddress%3E%0A%3CPostalCode%3E04430%3C%2FPostalCode%3E%0A%3CCity%3EJ%C4RVENP%C4%C4%3C%2FCity%3E%0A%3CCountry%3EFI%3C%2FCountry%3E%0A%3CMhOffice%3EJ%C4RVENP%C4%C4%3C%2FMhOffice%3E%0A%3CShopId%3E96141000%3C%2FShopId%3E%0A%3CDistance%3E2%2C7%3C%2FDistance%3E%0A%3C%2FOffice%3E%0A%3COffice%3E%0A%3CSeqNumber%3E4%3C%2FSeqNumber%3E%0A%3CId%3E5534%3C%2FId%3E%0A%3CType%3ETRS%3C%2FType%3E%0A%3CName%3ESIWA+VANHANKYL%C4NTIE%3C%2FName%3E%0A%3CStreetAddress%3EVANHANKYL%C4NTIE+65%3C%2FStreetAddress%3E%0A%3CPostalCode%3E04400%3C%2FPostalCode%3E%0A%3CCity%3EJ%C4RVENP%C4%C4%3C%2FCity%3E%0A%3CCountry%3EFI%3C%2FCountry%3E%0A%3CMhOffice%3EJ%C4RVENP%C4%C4%3C%2FMhOffice%3E%0A%3CShopId%3E03162000%3C%2FShopId%3E%0A%3CDistance%3E3%2C1%3C%2FDistance%3E%0A%3C%2FOffice%3E%0A%3COffice%3E%0A%3CSeqNumber%3E5%3C%2FSeqNumber%3E%0A%3CId%3E5260%3C%2FId%3E%0A%3CType%3ETRS%3C%2FType%3E%0A%3CName%3ESIWA+LOUTINKATU+%28KIOSKI%29%3C%2FName%3E%0A%3CStreetAddress%3ELOUTINKATU+9%3C%2FStreetAddress%3E%0A%3CPostalCode%3E04400%3C%2FPostalCode%3E%0A%3CCity%3EJ%C4RVENP%C4%C4%3C%2FCity%3E%0A%3CCountry%3EFI%3C%2FCountry%3E%0A%3CMhOffice%3EJ%C4RVENP%C4%C4%3C%2FMhOffice%3E%0A%3CShopId%3E03015000%3C%2FShopId%3E%0A%3CDistance%3E3%2C3%3C%2FDistance%3E%0A%3C%2FOffice%3E%0A%3C%2FMHSearchOfficesReply%3E%0A'
     http_version: 
-  recorded_at: Sun, 22 Dec 2013 01:37:14 GMT
+  recorded_at: Sat, 04 Jan 2014 22:17:25 GMT
 recorded_with: VCR 2.8.0
